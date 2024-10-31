@@ -1,9 +1,7 @@
+import Main from "./pages/main";
+
 function App() {
-  return (
-    <div className="App">
-      <p>hi</p>
-    </div>
-  );
+  return <Main />;
 }
 
 export default App;
