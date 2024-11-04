@@ -7,7 +7,7 @@ const Main = () => {
     <div className="page">
       <nav className="nav">harrykotter</nav>
       <header className="header">
-        <div className="profile_img"></div>
+        <img alt="profile" src="profile.png" className="profile_img" />
         <div className="profile_text">
           Hi, I'm Harry. I'm a junior publisher! Always seeking for new events!
         </div>
