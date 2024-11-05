@@ -1,11 +1,11 @@
-import Project from "../components/project";
+import Project from "../components/Project";
+import Feature from "../components/Feature";
 import projectList from "../data/projects.json";
-import "./main.css";
+import "../styles/main.css";
 
 const Main = () => {
   return (
-    <div className="page">
-      <nav className="nav">harrykotter</nav>
+    <Feature>
       <header className="header">
         <img alt="profile" src="profile.png" className="profile_img" />
         <div className="profile_text">
@@ -22,8 +22,7 @@ const Main = () => {
           />
         ))}
       </div>
-      <footer>©2024 Harry.K</footer>
-    </div>
+    </Feature>
   );
 };
 
