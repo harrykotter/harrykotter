@@ -30,9 +30,23 @@
   height: 15rem;
   background-color: var(--White-90);
 }
+
+.profile_info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .profile_text {
   text-align: left;
   width: 45rem;
+}
+
+.sns {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 2rem;
 }
 
 .project_wrapper {

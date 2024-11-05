@@ -5,6 +5,7 @@
   padding: 2rem;
   width: 25rem;
   height: 25rem;
+  text-decoration: none;
   border: 3px solid var(--Brown-60);
   border-radius: 2.5rem;
   transition: transform 0.2s;
