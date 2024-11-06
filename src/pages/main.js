@@ -1,5 +1,5 @@
-import Project from "../components/Project.js";
 import Feature from "../components/Feature.js";
+import Project from "../components/project_link.js";
 import projectList from "../data/projects.json";
 import "../styles/main.css";
 
