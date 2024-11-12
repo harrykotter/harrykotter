@@ -1,6 +1,8 @@
 import Feature from "../components/Feature.js";
 import Project from "../components/project_link.js";
+import Social from "../components/Social_link.js";
 import projectList from "../data/projects.json";
+import SocialList from "../data/social.json";
 import "../styles/main.css";
 
 const Main = () => {
@@ -14,20 +16,9 @@ const Main = () => {
             events!
           </div>
           <div className="sns">
-            <a
-              href="https://www.instagram.com/0hooni_98/"
-              target="_blank"
-              rel="noopnener noreferrer"
-            >
-              Instagram
-            </a>
-            <a
-              href="https://www.instagram.com/0hooni_98/"
-              target="_blank"
-              rel="noopnener noreferrer"
-            >
-              Blog
-            </a>
+            {SocialList.map((sns, id) => {
+              return <Social key={id} type={sns.type} link={sns.link} />;
+            })}
           </div>
         </div>
       </header>
